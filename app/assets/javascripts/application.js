@@ -32,7 +32,6 @@ submit_message = function() {
   });
 };
 
-
 $(document).on('turbolinks:load', function() {
   $('.ui.dropdown').dropdown();
   $('.message .close').on('click', function() {
